@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.shop2wheels&apos; to &apos;com.shop2wheels.common.entity&apos;&#x0D;&#x0A;- Original project: &apos;Shop2wheelsCommon&apos;&#x0D;&#x0A;- Original element: &apos;Shop2wheelsCommon/src/main/java/com.shop2wheels&apos;&#x0D;&#x0A;- Renamed element: &apos;Shop2wheelsCommon/src/main/java/com.shop2wheels.common.entity&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.shop2wheels&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.shop2wheels" name="com.shop2wheels.common.entity" qualified="false" references="true" stamp="1708353383230" textual="false" version="1.0"/>
+</session>

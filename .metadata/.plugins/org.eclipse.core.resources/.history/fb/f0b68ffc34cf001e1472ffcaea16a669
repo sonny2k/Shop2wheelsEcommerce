@@ -1,0 +1,7 @@
+package com.shop2wheels.common.entity;
+
+@Entity
+@Table(name = "roles")
+public class Role {
+
+}

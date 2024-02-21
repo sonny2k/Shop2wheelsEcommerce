@@ -1,0 +1,9 @@
+package com.shop2wheels.common.entity;
+
+import jakarta.persistence.Entity;
+
+@Entity
+@Table(name = "roles")
+public class Role {
+
+}

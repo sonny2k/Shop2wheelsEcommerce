@@ -1,0 +1,5 @@
+package com.shop2wheels.admin.user;
+
+public interface UserRepository {
+
+}

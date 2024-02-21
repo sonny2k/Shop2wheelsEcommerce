@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="UserRepositoryTests.testCreateUser" project="Shop2wheelsBackEnd" tests="1" started="0" failures="0" errors="1" ignored="0">
+  <testsuite name="com.shop2wheels.admin.user.UserRepositoryTests" incomplete="true" displayname="UserRepositoryTests" uniqueid="[engine:junit-jupiter]/[class:com.shop2wheels.admin.user.UserRepositoryTests]">
+    <error>java.lang.NoClassDefFoundError: org/springframework/data/jdbc/repository/config/AbstractJdbcConfiguration&#13;
+	at org.springframework.boot.test.autoconfigure.data.jdbc.DataJdbcTypeExcludeFilter.&lt;clinit&gt;(DataJdbcTypeExcludeFilter.java:35)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)&#13;
+	at org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer.instantiateTypeExcludeFilter(TypeExcludeFiltersContextCustomizer.java:63)&#13;
+	at org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer.instantiateTypeExcludeFilters(TypeExcludeFiltersContextCustomizer.java:53)&#13;
+	at org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer.&lt;init&gt;(TypeExcludeFiltersContextCustomizer.java:46)&#13;
+	at org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizerFactory.createContextCustomizer(TypeExcludeFiltersContextCustomizerFactory.java:61)&#13;
+	at org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizerFactory.createContextCustomizer(TypeExcludeFiltersContextCustomizerFactory.java:55)&#13;
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.getContextCustomizers(AbstractTestContextBootstrapper.java:360)&#13;
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildMergedContextConfiguration(AbstractTestContextBootstrapper.java:332)&#13;
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildDefaultMergedContextConfiguration(AbstractTestContextBootstrapper.java:267)&#13;
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildMergedContextConfiguration(AbstractTestContextBootstrapper.java:215)&#13;
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildTestContext(AbstractTestContextBootstrapper.java:108)&#13;
+	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.buildTestContext(SpringBootTestContextBootstrapper.java:111)&#13;
+	at org.springframework.test.context.TestContextManager.&lt;init&gt;(TestContextManager.java:142)&#13;
+	at org.springframework.test.context.TestContextManager.&lt;init&gt;(TestContextManager.java:126)&#13;
+	at org.springframework.test.context.junit.jupiter.SpringExtension.getTestContextManager(SpringExtension.java:366)&#13;
+	at org.springframework.test.context.junit.jupiter.SpringExtension.beforeAll(SpringExtension.java:131)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+Caused by: java.lang.ClassNotFoundException: org.springframework.data.jdbc.repository.config.AbstractJdbcConfiguration&#13;
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)&#13;
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)&#13;
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)&#13;
+	... 19 more&#13;
+&#13;
+</error>
+    <testcase name="testCreateUser" classname="com.shop2wheels.admin.user.UserRepositoryTests" incomplete="true" displayname="testCreateUser()" uniqueid="[engine:junit-jupiter]/[class:com.shop2wheels.admin.user.UserRepositoryTests]/[method:testCreateUser()]"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,5 @@
+package com.shop2wheels.common.entity;
+
+public class Role {
+
+}
