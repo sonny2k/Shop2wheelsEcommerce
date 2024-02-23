@@ -64,13 +64,18 @@
 				</div>
 			</nav>
 		</div>
-		
+
 		<div>
 			<h2>Manage Users</h2>
+			<a th:href="@{/users/new}">Create New User</a>
 		</div>
-		
+
+		<div th:if="${message != null}"
+			class="alert alert-success text-center" role="alert">[[${message}]]</div>
+
 		<div>
-			<table class="table table-bordered table-striped table-hover table-responsive-xl">
+			<table
+				class="table table-bordered table-striped table-hover table-responsive-xl">
 				<thead class="table-dark">
 					<tr>
 						<th>User ID</th>
@@ -84,7 +89,7 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr th:each = "user: ${userslist}">
+					<tr th:each="user: ${userslist}">
 						<td>[[${user.id}]]</td>
 						<td></td>
 						<td>[[${user.email}]]</td>
@@ -92,14 +97,12 @@
 						<td>[[${user.lastName}]]</td>
 						<td>[[${user.roles}]]</td>
 						<td>[[${user.enabled}]]</td>
-						<td>
-							Edit &nbsp; Delete
-						</td>
+						<td>Edit &nbsp; Delete</td>
 					</tr>
 				</tbody>
 			</table>
 		</div>
-		
+
 		<div class="text-center">
 			<p>Shop2wheels Control Panel - Made with love by Sonny2k</p>
 		</div>
