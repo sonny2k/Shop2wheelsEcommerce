@@ -1652,3 +1652,131 @@ Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was
 2024-02-23 15:44:53,160 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2024-02-23 15:44:53,166 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
 2024-02-23 15:44:53,169 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\careerTraining\Java\Shop2wheelsEcommerce\Shop2wheelsProject\Shop2wheelsWebParent\Shop2wheelsBackEnd\src\test\resources
+2024-02-26 12:45:44,892 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-02-26 13:02:46,167 [Worker-18: Launching Shop2wheelsBackEnd - Shop2wheelsBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop2wheelsCommon: com.shop2wheels:Shop2wheelsCommon:0.0.1-SNAPSHOT with classifier  to /Shop2wheelsCommon/target/classes
+2024-02-26 13:02:46,260 [Worker-18: Launching Shop2wheelsBackEnd - Shop2wheelsBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop2wheelsCommon: com.shop2wheels:Shop2wheelsCommon:0.0.1-SNAPSHOT with classifier  to /Shop2wheelsCommon/target/classes
+2024-02-26 13:02:48,720 [Worker-18: Launching Shop2wheelsBackEnd - Shop2wheelsBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop2wheelsCommon: com.shop2wheels:Shop2wheelsCommon:0.0.1-SNAPSHOT with classifier null to /Shop2wheelsCommon/target/classes
+2024-02-26 13:02:48,839 [Worker-18: Launching Shop2wheelsBackEnd - Shop2wheelsBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop2wheelsCommon: com.shop2wheels:Shop2wheelsCommon:0.0.1-SNAPSHOT with classifier null to /Shop2wheelsCommon/target/classes
+2024-02-26 13:02:48,939 [Worker-18: Launching Shop2wheelsBackEnd - Shop2wheelsBackEndApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop2wheelsCommon: com.shop2wheels:Shop2wheelsCommon:0.0.1-SNAPSHOT with classifier null to /Shop2wheelsCommon/target/classes
+2024-02-26 13:07:02,240 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-26 13:07:02,271 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-02-26 13:07:02,283 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\careerTraining\Java\Shop2wheelsEcommerce\Shop2wheelsProject\Shop2wheelsWebParent\Shop2wheelsBackEnd\src\test\resources
+2024-02-26 13:07:04,648 [Worker-22: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop2wheelsCommon: com.shop2wheels:Shop2wheelsCommon:0.0.1-SNAPSHOT with classifier  to /Shop2wheelsCommon/target/classes
+2024-02-26 13:08:41,351 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-26 13:08:41,353 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-26 13:08:41,361 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\careerTraining\Java\Shop2wheelsEcommerce\Shop2wheelsProject\Shop2wheelsWebParent\Shop2wheelsBackEnd\src\test\resources
+2024-02-26 13:08:44,198 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-26 13:08:44,199 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-26 13:08:44,204 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\careerTraining\Java\Shop2wheelsEcommerce\Shop2wheelsProject\Shop2wheelsWebParent\Shop2wheelsBackEnd\src\test\resources
+2024-02-26 13:09:46,914 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-26 13:09:46,915 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-26 13:09:46,918 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\careerTraining\Java\Shop2wheelsEcommerce\Shop2wheelsProject\Shop2wheelsWebParent\Shop2wheelsBackEnd\src\test\resources
+2024-02-26 13:09:53,082 [Worker-30: Launching UserRepositoryTests.testGetUserByEmail] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop2wheelsCommon: com.shop2wheels:Shop2wheelsCommon:0.0.1-SNAPSHOT with classifier null to /Shop2wheelsCommon/target/classes
+2024-02-26 13:09:53,264 [Worker-30: Launching UserRepositoryTests.testGetUserByEmail] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop2wheelsCommon: com.shop2wheels:Shop2wheelsCommon:0.0.1-SNAPSHOT with classifier null to /Shop2wheelsCommon/target/classes
+2024-02-26 13:11:07,301 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-26 13:11:07,301 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-26 13:11:07,304 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\careerTraining\Java\Shop2wheelsEcommerce\Shop2wheelsProject\Shop2wheelsWebParent\Shop2wheelsBackEnd\src\test\resources
+2024-02-26 13:11:14,204 [Worker-18: Launching UserRepositoryTests.testGetUserByEmail] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop2wheelsCommon: com.shop2wheels:Shop2wheelsCommon:0.0.1-SNAPSHOT with classifier null to /Shop2wheelsCommon/target/classes
+2024-02-26 13:11:14,333 [Worker-18: Launching UserRepositoryTests.testGetUserByEmail] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/Shop2wheelsCommon: com.shop2wheels:Shop2wheelsCommon:0.0.1-SNAPSHOT with classifier null to /Shop2wheelsCommon/target/classes
+2024-02-26 13:15:46,394 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-26 13:15:46,399 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-02-26 13:15:46,403 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\careerTraining\Java\Shop2wheelsEcommerce\Shop2wheelsProject\Shop2wheelsWebParent\Shop2wheelsBackEnd\src\test\resources
+2024-02-26 13:16:18,980 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-26 13:16:19,015 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-02-26 13:16:19,021 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\careerTraining\Java\Shop2wheelsEcommerce\Shop2wheelsProject\Shop2wheelsWebParent\Shop2wheelsBackEnd\src\test\resources
+2024-02-26 13:17:02,024 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-26 13:17:02,031 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-02-26 13:17:02,035 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\careerTraining\Java\Shop2wheelsEcommerce\Shop2wheelsProject\Shop2wheelsWebParent\Shop2wheelsBackEnd\src\test\resources
+2024-02-26 13:18:26,338 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-26 13:18:26,344 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-02-26 13:18:26,348 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\careerTraining\Java\Shop2wheelsEcommerce\Shop2wheelsProject\Shop2wheelsWebParent\Shop2wheelsBackEnd\src\test\resources
+2024-02-26 13:19:05,976 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-26 13:19:05,984 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-02-26 13:19:05,989 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\careerTraining\Java\Shop2wheelsEcommerce\Shop2wheelsProject\Shop2wheelsWebParent\Shop2wheelsBackEnd\src\test\resources
+2024-02-26 13:21:16,019 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-26 13:21:16,021 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-26 13:21:16,026 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\careerTraining\Java\Shop2wheelsEcommerce\Shop2wheelsProject\Shop2wheelsWebParent\Shop2wheelsBackEnd\src\test\resources
+2024-02-26 13:21:52,105 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-26 13:21:52,105 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-26 13:21:52,110 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\careerTraining\Java\Shop2wheelsEcommerce\Shop2wheelsProject\Shop2wheelsWebParent\Shop2wheelsBackEnd\src\test\resources
+2024-02-26 13:21:58,006 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-26 13:21:58,008 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-26 13:21:58,012 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\careerTraining\Java\Shop2wheelsEcommerce\Shop2wheelsProject\Shop2wheelsWebParent\Shop2wheelsBackEnd\src\test\resources
+2024-02-26 13:22:41,468 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-26 13:22:41,470 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-26 13:22:41,473 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\careerTraining\Java\Shop2wheelsEcommerce\Shop2wheelsProject\Shop2wheelsWebParent\Shop2wheelsBackEnd\src\test\resources
+2024-02-26 13:26:51,059 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-26 13:26:51,060 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-26 13:26:51,064 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\careerTraining\Java\Shop2wheelsEcommerce\Shop2wheelsProject\Shop2wheelsWebParent\Shop2wheelsBackEnd\src\test\resources
+2024-02-26 13:30:37,467 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-26 13:30:37,467 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-26 13:30:37,473 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\careerTraining\Java\Shop2wheelsEcommerce\Shop2wheelsProject\Shop2wheelsWebParent\Shop2wheelsBackEnd\src\test\resources
+2024-02-26 13:31:38,129 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-26 13:31:38,129 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-26 13:31:38,132 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\careerTraining\Java\Shop2wheelsEcommerce\Shop2wheelsProject\Shop2wheelsWebParent\Shop2wheelsBackEnd\src\test\resources
+2024-02-26 14:07:35,414 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-26 14:07:35,415 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-26 14:07:35,421 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\careerTraining\Java\Shop2wheelsEcommerce\Shop2wheelsProject\Shop2wheelsWebParent\Shop2wheelsBackEnd\src\test\resources
+2024-02-26 14:11:09,871 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-26 14:11:09,872 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-26 14:11:09,875 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\careerTraining\Java\Shop2wheelsEcommerce\Shop2wheelsProject\Shop2wheelsWebParent\Shop2wheelsBackEnd\src\test\resources
+2024-02-26 14:17:51,051 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-26 14:17:51,075 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources from src\main\resources to target\classes
+2024-02-26 14:17:51,080 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\careerTraining\Java\Shop2wheelsEcommerce\Shop2wheelsProject\Shop2wheelsWebParent\Shop2wheelsBackEnd\src\test\resources
+2024-02-26 14:53:51,491 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-26 14:53:51,493 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-26 14:53:51,505 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\careerTraining\Java\Shop2wheelsEcommerce\Shop2wheelsProject\Shop2wheelsWebParent\Shop2wheelsBackEnd\src\test\resources
+2024-02-26 14:56:23,166 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-26 14:56:23,168 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-26 14:56:23,176 [Worker-40: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\careerTraining\Java\Shop2wheelsEcommerce\Shop2wheelsProject\Shop2wheelsWebParent\Shop2wheelsBackEnd\src\test\resources
+2024-02-26 14:56:33,257 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-26 14:56:33,259 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-26 14:56:33,267 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\careerTraining\Java\Shop2wheelsEcommerce\Shop2wheelsProject\Shop2wheelsWebParent\Shop2wheelsBackEnd\src\test\resources
+2024-02-26 14:58:56,153 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-26 14:58:56,156 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-26 14:58:56,165 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\careerTraining\Java\Shop2wheelsEcommerce\Shop2wheelsProject\Shop2wheelsWebParent\Shop2wheelsBackEnd\src\test\resources
+2024-02-26 15:01:59,323 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-26 15:01:59,323 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-26 15:01:59,326 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\careerTraining\Java\Shop2wheelsEcommerce\Shop2wheelsProject\Shop2wheelsWebParent\Shop2wheelsBackEnd\src\test\resources
+2024-02-26 15:02:07,584 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-26 15:02:07,585 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-26 15:02:07,589 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\careerTraining\Java\Shop2wheelsEcommerce\Shop2wheelsProject\Shop2wheelsWebParent\Shop2wheelsBackEnd\src\test\resources
+2024-02-26 15:02:33,181 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-26 15:02:33,182 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-26 15:02:33,186 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\careerTraining\Java\Shop2wheelsEcommerce\Shop2wheelsProject\Shop2wheelsWebParent\Shop2wheelsBackEnd\src\test\resources
+2024-02-26 15:07:47,301 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-26 15:07:47,301 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-26 15:07:47,306 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\careerTraining\Java\Shop2wheelsEcommerce\Shop2wheelsProject\Shop2wheelsWebParent\Shop2wheelsBackEnd\src\test\resources
+2024-02-26 15:08:01,093 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-26 15:08:01,094 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-26 15:08:01,097 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\careerTraining\Java\Shop2wheelsEcommerce\Shop2wheelsProject\Shop2wheelsWebParent\Shop2wheelsBackEnd\src\test\resources
+2024-02-26 15:08:52,450 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-26 15:08:52,450 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-26 15:08:52,454 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\careerTraining\Java\Shop2wheelsEcommerce\Shop2wheelsProject\Shop2wheelsWebParent\Shop2wheelsBackEnd\src\test\resources
+2024-02-26 15:09:37,408 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-26 15:09:37,409 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-26 15:09:37,413 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\careerTraining\Java\Shop2wheelsEcommerce\Shop2wheelsProject\Shop2wheelsWebParent\Shop2wheelsBackEnd\src\test\resources
+2024-02-26 15:12:33,642 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-26 15:12:33,643 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-26 15:12:33,646 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\careerTraining\Java\Shop2wheelsEcommerce\Shop2wheelsProject\Shop2wheelsWebParent\Shop2wheelsBackEnd\src\test\resources
+2024-02-26 15:12:44,514 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-26 15:12:44,515 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-26 15:12:44,518 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\careerTraining\Java\Shop2wheelsEcommerce\Shop2wheelsProject\Shop2wheelsWebParent\Shop2wheelsBackEnd\src\test\resources
+2024-02-26 15:13:34,710 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-26 15:13:34,711 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-26 15:13:34,714 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\careerTraining\Java\Shop2wheelsEcommerce\Shop2wheelsProject\Shop2wheelsWebParent\Shop2wheelsBackEnd\src\test\resources
+2024-02-26 15:14:38,809 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-26 15:14:38,810 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-26 15:14:38,813 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\careerTraining\Java\Shop2wheelsEcommerce\Shop2wheelsProject\Shop2wheelsWebParent\Shop2wheelsBackEnd\src\test\resources
+2024-02-26 15:14:47,024 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-26 15:14:47,025 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-26 15:14:47,029 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\careerTraining\Java\Shop2wheelsEcommerce\Shop2wheelsProject\Shop2wheelsWebParent\Shop2wheelsBackEnd\src\test\resources
+2024-02-26 15:16:31,805 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-26 15:16:31,806 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-26 15:16:31,810 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\careerTraining\Java\Shop2wheelsEcommerce\Shop2wheelsProject\Shop2wheelsWebParent\Shop2wheelsBackEnd\src\test\resources
+2024-02-26 15:17:46,831 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-26 15:17:46,832 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-26 15:17:46,836 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\careerTraining\Java\Shop2wheelsEcommerce\Shop2wheelsProject\Shop2wheelsWebParent\Shop2wheelsBackEnd\src\test\resources
+2024-02-26 15:18:10,523 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-02-26 15:18:10,524 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-02-26 15:18:10,528 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\careerTraining\Java\Shop2wheelsEcommerce\Shop2wheelsProject\Shop2wheelsWebParent\Shop2wheelsBackEnd\src\test\resources
