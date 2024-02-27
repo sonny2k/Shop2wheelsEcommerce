@@ -101,13 +101,15 @@
 						<td>[[${user.roles}]]</td>
 						<td>
 							<a th:if="${user.enabled == true}"
-							class="fa-solid fa-circle-check fa-2x icon-green" href="" ></a> 
+							class="fa-solid fa-circle-check fa-2x icon-green" href=""></a> 
 							
 							<a th:if="${user.enabled == false}"
 							class="fa-solid fa-circle-check fa-2x icon-dark" href=""></a>
 						</td>
-						<td><a class="fa-solid fa-user-pen fa-2x icon-green" href=""></a>
-							&nbsp; <a class="fa-solid fa-user-xmark fa-2x icon-dark" href=""></a>
+						<td>
+							<a class="fa-solid fa-user-pen fa-2x icon-green" th:href="@{'/users/edit/' + ${user.id}}" title="Edit this user"></a>
+							&nbsp; 
+							<a class="fa-solid fa-user-xmark fa-2x icon-dark" href=""></a>
 						</td>
 					</tr>
 				</tbody>
