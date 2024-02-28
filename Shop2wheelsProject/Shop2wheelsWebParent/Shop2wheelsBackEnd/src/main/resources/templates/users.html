@@ -99,17 +99,28 @@
 						<td>[[${user.firstName}]]</td>
 						<td>[[${user.lastName}]]</td>
 						<td>[[${user.roles}]]</td>
-						<td><a th:if="${user.enabled == true}"
-							class="fa-solid fa-circle-check fa-2x icon-green" href=""></a> <a
-							th:if="${user.enabled == false}"
-							class="fa-solid fa-circle-check fa-2x icon-dark" href=""></a></td>
-						<td><a class="fa-solid fa-user-pen fa-2x icon-green"
+						<td>
+							<a th:if="${user.enabled == true}"
+							class="fa-solid fa-circle-check fa-2x icon-green" 
+							th:href="@{'/users/' + ${user.id} + '/enabled/false'}"
+							title="Disable this user"></a> 
+							
+							<a th:if="${user.enabled == false}"
+							class="fa-solid fa-circle fa-2x icon-dark" 
+							th:href="@{'/users/' + ${user.id} + '/enabled/true'}"
+							title="Enable this user"></a>
+						</td>
+						
+						<td>
+							<a class="fa-solid fa-user-pen fa-2x icon-green"
 							th:href="@{'/users/edit/' + ${user.id}}" title="Edit this user"></a>
-							&nbsp; <a
-							class="fa-solid fa-user-xmark fa-2x icon-dark link-delete"
-							th:href="@{'/users/delete/' + ${user.id}}"
-							th:userId="${user.id}"
-							title="Delete this user"></a></td>
+							
+							&nbsp; 
+							
+							<a class="fa-solid fa-user-xmark fa-2x icon-dark link-delete"
+							th:href="@{'/users/delete/' + ${user.id}}" th:userId="${user.id}"
+							title="Delete this user"></a>
+						</td>
 					</tr>
 				</tbody>
 			</table>
@@ -141,7 +152,7 @@
 			<p>Shop2wheels Control Panel - Made with love by Sonny2k</p>
 		</div>
 	</div>
-	
+
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$(".link-delete").on("click", function(e) {

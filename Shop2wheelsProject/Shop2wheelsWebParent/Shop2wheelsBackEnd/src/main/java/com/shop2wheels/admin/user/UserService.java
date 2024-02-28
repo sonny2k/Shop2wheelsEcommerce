@@ -10,7 +10,10 @@ import org.springframework.stereotype.Service;
 import com.shop2wheels.common.entity.Role;
 import com.shop2wheels.common.entity.User;
 
+import jakarta.transaction.Transactional;
+
 @Service
+@Transactional
 public class UserService {
 	@Autowired
 	private UserRepository userRepo;
@@ -88,5 +91,9 @@ public class UserService {
 		}
 
 		userRepo.deleteById(id);
+	}
+
+	public void updateUserEnabledStatus(Integer id, boolean enabled) {
+		userRepo.updateEnabledStatus(id, enabled);
 	}
 }

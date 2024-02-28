@@ -18,7 +18,6 @@ INDEX VERSION 1.134+D:\careerTraining\Java\Shop2wheelsEcommerce\.metadata\.plugi
 619731149.index
 1171870258.index
 3171777113.index
-4143730556.index
 2081233138.index
 4152153163.index
 344577223.index
