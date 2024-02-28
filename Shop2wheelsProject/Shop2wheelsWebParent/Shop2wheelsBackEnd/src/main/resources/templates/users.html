@@ -99,26 +99,61 @@
 						<td>[[${user.firstName}]]</td>
 						<td>[[${user.lastName}]]</td>
 						<td>[[${user.roles}]]</td>
-						<td>
-							<a th:if="${user.enabled == true}"
-							class="fa-solid fa-circle-check fa-2x icon-green" href=""></a> 
-							
-							<a th:if="${user.enabled == false}"
-							class="fa-solid fa-circle-check fa-2x icon-dark" href=""></a>
-						</td>
-						<td>
-							<a class="fa-solid fa-user-pen fa-2x icon-green" th:href="@{'/users/edit/' + ${user.id}}" title="Edit this user"></a>
-							&nbsp; 
-							<a class="fa-solid fa-user-xmark fa-2x icon-dark" href=""></a>
-						</td>
+						<td><a th:if="${user.enabled == true}"
+							class="fa-solid fa-circle-check fa-2x icon-green" href=""></a> <a
+							th:if="${user.enabled == false}"
+							class="fa-solid fa-circle-check fa-2x icon-dark" href=""></a></td>
+						<td><a class="fa-solid fa-user-pen fa-2x icon-green"
+							th:href="@{'/users/edit/' + ${user.id}}" title="Edit this user"></a>
+							&nbsp; <a
+							class="fa-solid fa-user-xmark fa-2x icon-dark link-delete"
+							th:href="@{'/users/delete/' + ${user.id}}"
+							th:userId="${user.id}"
+							title="Delete this user"></a></td>
 					</tr>
 				</tbody>
 			</table>
+		</div>
+
+		<div class="modal fade text-center" id="confirmModal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title">Delete Confirmation</h4>
+						<button type="button" class="btn-close" data-bs-dismiss="modal"
+							aria-label="Close"></button>
+					</div>
+
+					<div class="modal-body">
+						<span id="confirmText"></span>
+					</div>
+
+					<div class="modal-footer">
+						<a class="btn btn-success" href="" id="yesButton">Yes</a>
+						<button type="button" class="btn btn-danger"
+							data-bs-dismiss="modal">No</button>
+					</div>
+				</div>
+			</div>
 		</div>
 
 		<div class="text-center">
 			<p>Shop2wheels Control Panel - Made with love by Sonny2k</p>
 		</div>
 	</div>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(".link-delete").on("click", function(e) {
+				e.preventDefault();
+				link = $(this);
+				//alert($(this).attr("href"));
+				userId = link.attr("userId");
+				$("#yesButton").attr("href", link.attr("href"));
+				$("#confirmText").text("Are you sure that you want to delete this user with ID " + userId + "?");
+				$("#confirmModal").modal('show');
+			});
+		});
+	</script>
 </body>
 </html>
