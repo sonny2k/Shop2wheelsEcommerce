@@ -20,6 +20,8 @@ import com.shop2wheels.admin.FileUploadUtil;
 import com.shop2wheels.common.entity.Role;
 import com.shop2wheels.common.entity.User;
 
+import jakarta.servlet.http.HttpServletResponse;
+
 @Controller
 public class UserController {
 
@@ -143,6 +145,13 @@ public class UserController {
 		redirectAttributes.addFlashAttribute("message", message);
 
 		return "redirect:/users";
+	}
+
+	@GetMapping("/users/export/csv")
+	public void exportToCSV(HttpServletResponse response) throws IOException {
+		List<User> usersList = service.listAll();
+		UserCsvExporter exporter = new UserCsvExporter();
+		exporter.export(usersList, response);
 	}
 
 }
